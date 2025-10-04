@@ -39,7 +39,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
         // Envia o email de boas-vindas
         await resend.emails.send({
-            from: "Curva Engenharia <contato@curvaengenharia.app.br>", // Altere para seu email verificado
+            from: "Curva Engenharia <9i9mkt@gmail.com>", // Altere para seu email verificado
             to: email,
             subject: `Bem-vindo(a) à Newsletter da Curva Engenharia, ${name}!`,
             html: `

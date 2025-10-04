@@ -24,7 +24,7 @@ export const authOptions: NextAuthOptions = {
             from: process.env.EMAIL_FROM,
             async sendVerificationRequest({ identifier: email, url, provider: { from } }) {
                 await resend.emails.send({
-                    from: from || "contato@curvaengenharia.app.br",
+                    from: from || "9i9mkt@gmail.com",
                     to: email,
                     subject: "Link de login para o site Curva Engenharia",
                     html: `Clique neste link para entrar: <a href="${url}">${url}</a>`,
