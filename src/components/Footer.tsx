@@ -118,7 +118,7 @@ const Footer = ({ menuData }: MenuProps) => {
                     </p>
                 </div>
             </div>
-            <PromotionsForm />
+            {/* <PromotionsForm /> */}
         </footer>
     );
 };
