@@ -67,7 +67,7 @@ const ProjetosPage: React.FC<ProjetosPageProps> = ({ menu }) => {
                 <meta name="keywords" content="portfólio engenharia Belém, projetos de arquitetura, cases de sucesso, projetos residenciais Belém, obras comerciais, projetos governamentais, reformas e construção, projetos concluídos, galeria de obras" />
 
                 {/* Metas para Redes Sociais (Open Graph) */}
-                <meta property="og:title" content="Portfólio de Projetos | Curva Engenharia e Arquitetura" />
+                <meta property="og:title" content="Portfólio de Projetos | Romaria Fluvial" />
                 <meta property="og:description" content="Conheça nossos projetos em Belém-PA. Do design de interiores à gestão de obras, veja como transformamos ideias em realidade." />
                 <meta property="og:image" content="https://curva-eng.vercel.app/images/portfolio.jpg" /> {/* Verifique esta URL, ou use uma imagem específica do projeto */}
                 <meta property="og:url" content="https://curva-eng.vercel.app/projetos" />

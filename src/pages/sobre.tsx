@@ -93,7 +93,7 @@ export default function SobrePage({ banners, menu, testimonials, faqs, colecoes 
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "Curva Engenharia e Arquitetura",
+        "name": "Romaria Fluvial",
         "image": "https://curva-eng.vercel.app/images/logo.png",
         "address": {
             "@type": "PostalAddress",
@@ -143,8 +143,8 @@ export default function SobrePage({ banners, menu, testimonials, faqs, colecoes 
     return (
         <>
             <Head>
-                <title>Sobre a Curva Engenharia e Arquitetura | Nossa História e Missão em Belém-PA</title>
-                <meta name="description" content="Conheça a Curva Engenharia e Arquitetura. Nossa equipe de especialistas em Belém-PA oferece soluções inovadoras em engenharia civil, arquitetura e gerenciamento de obras, transformando desafios em projetos de sucesso." />
+                <title>Sobre a Romaria Fluvial | Nossa História e Missão em Belém-PA</title>
+                <meta name="description" content="Conheça a Romaria Fluvial. Nossa equipe de especialistas em Belém-PA oferece soluções inovadoras em engenharia civil, arquitetura e gerenciamento de obras, transformando desafios em projetos de sucesso." />
                 <meta name="keywords" content="história Curva Engenharia, equipe de engenharia Belém, missão e valores, expertise em construção, projetos de engenharia Belém, arquitetos em Belém-PA, portfólio de obras" />
 
                 {/* Metas para Redes Sociais (Open Graph) */}
@@ -156,7 +156,7 @@ export default function SobrePage({ banners, menu, testimonials, faqs, colecoes 
 
                 {/* Metas para Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Sobre a Curva Engenharia e Arquitetura" />
+                <meta name="twitter:title" content="Sobre a Romaria Fluvial" />
                 <meta name="twitter:description" content="Conheça nossa equipe de engenheiros e arquitetos em Belém-PA. Projetos personalizados com foco em inovação e qualidade." />
                 <meta name="twitter:image" content="https://curva-eng.vercel.app/images/aperto-mao.jpg" />
 
@@ -171,7 +171,7 @@ export default function SobrePage({ banners, menu, testimonials, faqs, colecoes 
                 <main className="max-w-full mx-auto">
                     <HeroBannerInternal
                         imageUrl="https://res.cloudinary.com/dacvhzjxb/image/upload/v1756187489/dresses/argn3tvqnxrumkbycf9h.jpg" // Sua imagem real
-                        title="Conheça a Curva Engenharia e Arquitetura"
+                        title="Conheça a Romaria Fluvial"
                     />
                     <SubtitlePage text="Nascemos com a missão de transformar ambientes e concretizar sonhos, unindo expertise técnica, design inovador e um compromisso inabalável com a qualidade e a satisfação do cliente." />
                     <SobreNos />

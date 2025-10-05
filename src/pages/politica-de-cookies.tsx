@@ -61,7 +61,7 @@ const PoliticaDeCookies = ({ menu }: PoliticaDeCookiesProps) => {
     return (
         <>
             <Head>
-                <title>Política de Cookies | Curva Engenharia e Arquitetura</title>
+                <title>Política de Cookies | Romaria Fluvial</title>
                 <meta name="description" content="Leia nossa Política de Cookies e entenda como utilizamos essas tecnologias para melhorar a sua experiência em nosso site." />
                 
                 {/* Metas para Redes Sociais (Open Graph) */}
@@ -74,7 +74,7 @@ const PoliticaDeCookies = ({ menu }: PoliticaDeCookiesProps) => {
                 {/* Metas para Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Política de Cookies" />
-                <meta name="twitter:description" content="Leia sobre como a Curva Engenharia e Arquitetura utiliza cookies em seu site." />
+                <meta name="twitter:description" content="Leia sobre como a Romaria Fluvial utiliza cookies em seu site." />
                 <meta name="twitter:image" content="https://curva-eng.vercel.app/images/logo.png" />
             </Head>
 
@@ -87,7 +87,7 @@ const PoliticaDeCookies = ({ menu }: PoliticaDeCookiesProps) => {
                         Política de Cookies
                     </h1>
                     <p className="mb-8 text-center text-gray-600">
-                        Esta página descreve como a Curva Engenharia e Arquitetura utiliza cookies em seu site.
+                        Esta página descreve como a Romaria Fluvial utiliza cookies em seu site.
                     </p>
                     <section className="mb-8">
                         <h2 className="text-2xl font-semibold mb-4 text-gray-800">1. O que são Cookies?</h2>

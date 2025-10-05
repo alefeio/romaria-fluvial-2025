@@ -34,7 +34,7 @@ export default function Hero() {
           {/* Coluna da esquerda: Texto principal e botão (aparece depois da imagem em mobile, e primeiro em md e acima) */}
           <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left gap-5">
             <p className="text-neutral-dark text-lg leading-relaxed max-w-xl md:max-w-none">
-              Há mais de uma década, a Curva Engenharia e Arquitetura transforma projetos em realidade. Nossa missão é ir além da construção, unindo a precisão da engenharia com a criatividade da arquitetura para entregar soluções completas e de alta qualidade. Somos movidos pela paixão por construir, reformar e projetar, criando espaços que geram impacto positivo para nossos clientes e para a comunidade.
+              Há mais de uma década, a Romaria Fluvial transforma projetos em realidade. Nossa missão é ir além da construção, unindo a precisão da engenharia com a criatividade da arquitetura para entregar soluções completas e de alta qualidade. Somos movidos pela paixão por construir, reformar e projetar, criando espaços que geram impacto positivo para nossos clientes e para a comunidade.
             </p>
             <div className="mt-6 w-fit">
               <a 

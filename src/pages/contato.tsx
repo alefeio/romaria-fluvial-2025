@@ -61,12 +61,12 @@ const ContactPage: React.FC<ContactPageProps> = ({ menu }) => {
     return (
         <>
             <Head>
-                <title>Contato | Curva Engenharia e Arquitetura</title>
-                <meta name="description" content="Entre em contato com a Curva Engenharia e Arquitetura para agendar uma consulta, obter um orçamento ou saber mais sobre nossos serviços." />
+                <title>Contato | Romaria Fluvial</title>
+                <meta name="description" content="Entre em contato com a Romaria Fluvial para agendar uma consulta, obter um orçamento ou saber mais sobre nossos serviços." />
                 <meta name="keywords" content="contato engenharia Belém, orçamento arquitetura, falar com engenheiro, consultoria engenharia, telefone construtora, email Curva Engenharia, endereço Belém-PA" />
 
                 {/* Metas para Redes Sociais (Open Graph) */}
-                <meta property="og:title" content="Contato | Curva Engenharia e Arquitetura" />
+                <meta property="og:title" content="Contato | Romaria Fluvial" />
                 <meta property="og:description" content="Entre em contato e vamos construir seu futuro juntos." />
                 <meta property="og:image" content="https://curva-eng.vercel.app/images/contato-og.jpg" />
                 <meta property="og:url" content="https://curva-eng.vercel.app/contato" />

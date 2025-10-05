@@ -155,8 +155,6 @@ model Subscriber {
   createdAt DateTime @default(now())
 }
 
-// Modelos para o sistema de gestão da Curva Engenharia
-
 enum TaskStatus {
   PENDENTE
   EM_ANDAMENTO

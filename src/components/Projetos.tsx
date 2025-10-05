@@ -112,7 +112,7 @@ const Projetos: React.FC = () => {
                         Portfólio de Projetos
                     </h1>
                     <p className="max-w-4xl mx-auto text-lg md:text-xl text-gray-700 leading-relaxed"> {/* Texto mais legível */}
-                        Cada projeto é uma história de sucesso. Explore nossa galeria de trabalhos e veja como a Curva Engenharia e Arquitetura transforma ideias em realidade, com excelência e inovação.
+                        Cada projeto é uma história de sucesso. Explore nossa galeria de trabalhos e veja como a Romaria Fluvial transforma ideias em realidade, com excelência e inovação.
                     </p>
                 </div>
 
