@@ -30,8 +30,8 @@ const ContactSection: React.FC = () => {
                         <p className="flex flex-col items-center justify-center space-x-3 text-xl overflow-hidden">
                             <MdEmail className="text-orange-500 text-3xl" />
                             <small className="md:text-sm">
-                                <a href="mailto:ciriofluvial@gmail.com" className="font-semibold hover:text-orange-500 transition-colors">
-                                    ciriofluvial@gmail.com
+                                <a href="mailto:contato@curvaengenharia.com.br" className="font-semibold hover:text-orange-500 transition-colors">
+                                    contato@curvaengenharia.com.br
                                 </a>
                             </small>
                         </p>
@@ -63,7 +63,7 @@ const ContactSection: React.FC = () => {
                     </address>
                     <div className="w-full h-64 rounded-xl overflow-hidden shadow-lg border-2 border-gray-700">
                         <iframe
-                            title="Romaria Fluvial"
+                            title="Curva Engenharia e Arquitetura"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.524428735484!2d-48.484449999999995!3d-1.4592233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48f5a32883995%3A0x2e74e5082cec22bd!2sCurva%20Engenharia%20%26%20Arquitetura!5e0!3m2!1spt-PT!2sbr!4v1756190533689!5m2!1spt-PT!2sbr"
                             width="100%"
                             height="100%"

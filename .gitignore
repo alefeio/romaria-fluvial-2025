@@ -41,5 +41,3 @@ public/uploads/
 *.tgz
 
 /src/generated/prisma
-
-/src/generated/prisma

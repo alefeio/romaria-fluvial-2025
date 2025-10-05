@@ -39,7 +39,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
         // Envia o email de boas-vindas
         await resend.emails.send({
-            from: "Curva Engenharia <9i9mkt@gmail.com>", // Altere para seu email verificado
+            from: "Curva Engenharia <contato@curvaengenharia.app.br>", // Altere para seu email verificado
             to: email,
             subject: `Bem-vindo(a) à Newsletter da Curva Engenharia, ${name}!`,
             html: `
@@ -60,19 +60,19 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
                 <body>
                     <div class="container">
                         <div class="header">
-                            <img src="https://res.cloudinary.com/dacvhzjxb/image/upload/v1756158564/dresses/xmwkqh4agbzztujfz3x7.png" alt="Logo Romaria Fluvial" />
+                            <img src="https://res.cloudinary.com/dacvhzjxb/image/upload/v1756158564/dresses/xmwkqh4agbzztujfz3x7.png" alt="Logo Curva Engenharia e Arquitetura" />
                         </div>
                         <div class="content">
                             <p>Olá, ${name}!</p>
-                            <p>Seja bem-vindo(a) à nossa newsletter! Agradecemos o seu interesse em acompanhar os projetos e as novidades da <strong>Romaria Fluvial</strong>.</p>
+                            <p>Seja bem-vindo(a) à nossa newsletter! Agradecemos o seu interesse em acompanhar os projetos e as novidades da <strong>Curva Engenharia e Arquitetura</strong>.</p>
                             <p>A partir de agora, você receberá conteúdos exclusivos sobre nossos cases de sucesso, insights do setor e tendências em engenharia civil e arquitetura.</p>
                             <p>Estamos prontos para transformar sua visão em realidade.</p>
                             <p>Atenciosamente,</p>
-                            <p>A equipe Romaria Fluvial.</p>
+                            <p>A equipe Curva Engenharia e Arquitetura.</p>
                             <p><a href="https://curva-eng.vercel.app/projetos" class="cta-button">Ver nosso Portfólio de Projetos</a></p>
                         </div>
                         <div class="footer">
-                            <p>Romaria Fluvial - Obras e Projetos em Belém-PA.</p>
+                            <p>Curva Engenharia e Arquitetura - Obras e Projetos em Belém-PA.</p>
                         </div>
                     </div>
                 </body>

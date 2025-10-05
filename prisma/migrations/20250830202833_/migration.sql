@@ -77,6 +77,19 @@ CREATE TABLE "public"."Banner" (
 );
 
 -- CreateTable
+CREATE TABLE "public"."HomepageSection" (
+    "id" TEXT NOT NULL,
+    "type" TEXT NOT NULL,
+    "order" INTEGER NOT NULL,
+    "content" JSONB NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
+    "deletedAt" TIMESTAMP(3),
+
+    CONSTRAINT "HomepageSection_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
 CREATE TABLE "public"."Testimonial" (
     "id" TEXT NOT NULL,
     "name" TEXT NOT NULL,
@@ -203,7 +216,6 @@ CREATE TABLE "public"."File" (
     "uploadedById" TEXT NOT NULL,
     "taskId" TEXT,
     "projetoId" TEXT,
-    "isPublic" BOOLEAN NOT NULL DEFAULT true,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
@@ -261,14 +273,6 @@ CREATE TABLE "public"."Contact" (
     CONSTRAINT "Contact_pkey" PRIMARY KEY ("id")
 );
 
--- CreateTable
-CREATE TABLE "public"."_FileAccess" (
-    "A" TEXT NOT NULL,
-    "B" TEXT NOT NULL,
-
-    CONSTRAINT "_FileAccess_AB_pkey" PRIMARY KEY ("A","B")
-);
-
 -- CreateIndex
 CREATE UNIQUE INDEX "Account_provider_providerAccountId_key" ON "public"."Account"("provider", "providerAccountId");
 
@@ -292,9 +296,6 @@ CREATE UNIQUE INDEX "Site_userId_key" ON "public"."Site"("userId");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "Subscriber_email_key" ON "public"."Subscriber"("email");
-
--- CreateIndex
-CREATE INDEX "_FileAccess_B_index" ON "public"."_FileAccess"("B");
 
 -- AddForeignKey
 ALTER TABLE "public"."Account" ADD CONSTRAINT "Account_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
@@ -337,9 +338,3 @@ ALTER TABLE "public"."Message" ADD CONSTRAINT "Message_senderId_fkey" FOREIGN KE
 
 -- AddForeignKey
 ALTER TABLE "public"."ProjetoFoto" ADD CONSTRAINT "ProjetoFoto_projetoId_fkey" FOREIGN KEY ("projetoId") REFERENCES "public"."Projetos"("id") ON DELETE CASCADE ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "public"."_FileAccess" ADD CONSTRAINT "_FileAccess_A_fkey" FOREIGN KEY ("A") REFERENCES "public"."File"("id") ON DELETE CASCADE ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "public"."_FileAccess" ADD CONSTRAINT "_FileAccess_B_fkey" FOREIGN KEY ("B") REFERENCES "public"."User"("id") ON DELETE CASCADE ON UPDATE CASCADE;

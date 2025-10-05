@@ -83,6 +83,16 @@ model Banner {
   banners Json
 }
 
+model HomepageSection {
+  id        String    @id @default(cuid())
+  type      String
+  order     Int
+  content   Json
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+}
+
 model Testimonial {
   id        String    @id @default(cuid())
   name      String
@@ -154,6 +164,8 @@ model Subscriber {
   phone     String?
   createdAt DateTime @default(now())
 }
+
+// Modelos para o sistema de gestão da Curva Engenharia
 
 enum TaskStatus {
   PENDENTE

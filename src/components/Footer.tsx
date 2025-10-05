@@ -32,7 +32,7 @@ const Footer = ({ menuData }: MenuProps) => {
                         <Link href="/" className="mb-4">
                             <Image
                                 src={logoUrl || "/images/logo.png"}
-                                alt="Romaria Fluvial"
+                                alt="Curva Engenharia e Arquitetura"
                                 width={150}
                                 height={30}
                             />
@@ -98,7 +98,7 @@ const Footer = ({ menuData }: MenuProps) => {
                         <h4 className="font-bold text-white text-lg mb-4 text-center md:text-left">Localização</h4>
                         <div className="w-full h-48 rounded-lg overflow-hidden shadow-lg">
                             <iframe
-                                title="Romaria Fluvial"
+                                title="Curva Engenharia e Arquitetura"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.524428735484!2d-48.484449999999995!3d-1.4592233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48f5a32883995%3A0x2e74e5082cec22bd!2sCurva%20Engenharia%20%26%20Arquitetura!5e0!3m2!1spt-PT!2sbr!4v1756190533689!5m2!1spt-PT!2sbr"
                                 width="100%"
                                 height="100%"
@@ -114,11 +114,11 @@ const Footer = ({ menuData }: MenuProps) => {
                 {/* Direitos Autorais e Créditos */}
                 <div className="text-center md:text-left border-t border-gray-700 mt-8 pt-6">
                     <p className="text-sm text-white">
-                        © 2025 Romaria Fluvial. Todos os direitos reservados.
+                        © 2025 Curva Engenharia e Arquitetura. Todos os direitos reservados.
                     </p>
                 </div>
             </div>
-            {/* <PromotionsForm /> */}
+            <PromotionsForm />
         </footer>
     );
 };

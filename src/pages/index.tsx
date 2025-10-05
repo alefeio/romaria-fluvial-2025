@@ -115,7 +115,7 @@ export default function Home({ banners, menu, testimonials, faqs, colecoes }: Ho
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "Romaria Fluvial",
+        "name": "Curva Engenharia e Arquitetura",
         "image": "https://curvaengenharia.app.br/images/logo.png", // Mantenha ou altere a URL da imagem se precisar
         "address": {
             "@type": "PostalAddress",
@@ -165,12 +165,12 @@ export default function Home({ banners, menu, testimonials, faqs, colecoes }: Ho
     return (
         <>
             <Head>
-                <title>Romaria Fluvial | Projetos, Obras e Reformas em Belém-PA</title>
+                <title>Curva Engenharia e Arquitetura | Projetos, Obras e Reformas em Belém-PA</title>
                 <meta name="description" content="Especialistas em engenharia civil e arquitetura em Belém-PA. Projetos residenciais, comerciais, obras públicas e design de interiores com inovação e qualidade. Solicite um orçamento!" />
                 <meta name="keywords" content="engenharia civil Belém, arquitetura Belém, projetos arquitetônicos, construção civil, reformas residenciais, obras públicas, laudo técnico, design de interiores, gerenciamento de obras, Belém-PA" />
 
                 {/* Metas para Redes Sociais (Open Graph) */}
-                <meta property="og:title" content="Romaria Fluvial | Seu Projeto em Boas Mãos" />
+                <meta property="og:title" content="Curva Engenharia e Arquitetura | Seu Projeto em Boas Mãos" />
                 <meta property="og:description" content="Projetos de engenharia e arquitetura em Belém-PA. Do design de interiores à gestão de obras, transformamos sua ideia em realidade com inovação e confiança." />
                 <meta property="og:image" content="https://curvaengenharia.app.br/images/predios.jpg" />
                 <meta property="og:url" content="https://curvaengenharia.app.br" />
@@ -178,7 +178,7 @@ export default function Home({ banners, menu, testimonials, faqs, colecoes }: Ho
 
                 {/* Metas para Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Romaria Fluvial" />
+                <meta name="twitter:title" content="Curva Engenharia e Arquitetura" />
                 <meta name="twitter:description" content="Projetos e obras em Belém. Soluções completas em engenharia, arquitetura, reformas e design de interiores." />
                 <meta name="twitter:image" content="https://curvaengenharia.app.br/images/predios.jpg" />
 
